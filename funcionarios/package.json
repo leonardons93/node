@@ -1,0 +1,25 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "outro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardons93/node.git"
+  },
+  "keywords": [
+    "sdaS"
+  ],
+  "author": "LEONARDO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardons93/node/issues"
+  },
+  "homepage": "https://github.com/leonardons93/node#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

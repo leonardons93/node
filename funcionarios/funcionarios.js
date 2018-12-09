@@ -4,7 +4,7 @@
   const chinesses = f => f.pais === 'Russia'
   const mulheres = f => f.genero === 'F'
   const menorSalarios = (func,funcAtual) => {
-      return func.salario < funcAtual.salario ? func:funcAtual
+      return func.salario > funcAtual.salario ? func:funcAtual
   }
 
   axios.get(url).then(Response =>{
